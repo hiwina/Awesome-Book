@@ -124,7 +124,7 @@ You can deploy this project using:
 
 👤 **Authors**
 
-- GitHub: [@shafiuyushawu](https://github.com/shafiuyushawu)
+- GitHub: [@shafiuyushawu](https://github.com/shafiuyushawu),  [@hiwina](https://github.com/hiwina)
 - Twitter: [@shafiuyushawu](https://twitter.com/shafiuyushawu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
