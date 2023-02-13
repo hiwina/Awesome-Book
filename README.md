@@ -62,12 +62,14 @@ A book liabrary to store items of books with thier title and author.
 
 ### Key Features <a name="key-features"></a>
 
-- N/A
+-The 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
- - N/A
+ - Stores the title and author of a book and stores it to an array of object
+ - Display the object 
+ - User can also remove a book and author with a remove button.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,23 +77,34 @@ A book liabrary to store items of books with thier title and author.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get the content of this project locally you need to run the following commands in your terminal.
 
 ### Prerequisites
 
-In order to run this project you need: N/A
+- IDE (code editor) like: VScode, Sublime, etc
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+
 
 ### Setup
 
-Clone this repository to your desired folder: N/A
+1. Download the **Zip** file or clone the repo with:
+```bash
+git - git clone https://github.com/hiwina/Awesome-Book
+```
+3. To access cloned directory run:
+```bash
+cd awesome-books
+```
+3. Open it with the live server
 
-- git clone https://github.com/hiwina/Awesome-Book
 
 ### Install
 
-Install this project with:
+> To install linters and other project's dependencies run:
 
-**NPM Install**
+```bash
+npm install
+```
 
 
 
@@ -102,13 +115,26 @@ To run the project, execute the following command:
 - N/A
 
 
-### Run tests
+## Run Test for Linters
 
-To run tests, run the following command:
+For tracking linter errors locally you need to follow these steps:
 
-- npx hint . 
-- npx stylelint "\*_/_.{css,scss}"
-- npx eslint .
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
+
+2. For tracking linter errors in CSS or SASS files run:
+
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
+
+3. For tracking linter errors in JavaScript files run:
+
+```bash
+npx eslint .
+```
 
 ### Deployment
 
@@ -132,7 +158,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- N/A
+- Implement object with classes
+- Create a complete website with navbar and footer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,6 +168,8 @@ You can deploy this project using:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+[Kindly raise issue here](https://github.com/hiwina/Awesome-Book/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
