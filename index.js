@@ -59,16 +59,3 @@ function addBook(e) {
   }
 }
 addButton.addEventListener('click', addBook);
-
-// function setLocalStorage(books) {
-//     const updateBooks = JSON.stringify(books);
-//     localStorage.setItem('Books', updateBooks);
-// }
-
-// function getLocalslStorage () {
-//     const storedBooks = localStorage.getItem('Books');
-//     if (storedBooks !== null) {
-//         return JSON.parse(storedBooks);
-//     }
-//     return [];
-// }
