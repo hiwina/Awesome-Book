@@ -4,22 +4,22 @@ const addButton = document.querySelector('.add-btn');
 const container = document.querySelector('.book-list');
 
 function setLocalStorage(books) {
-    const updateBooks = JSON.stringify(books);
-    localStorage.setItem('Books', updateBooks);
+  const updateBooks = JSON.stringify(books);
+  localStorage.setItem('Books', updateBooks);
 }
 
-function getLocalslStorage () {
-    const storedBooks = localStorage.getItem('Books');
-    if (storedBooks !== null) {
-        return JSON.parse(storedBooks);
-    }
-    return [];
+function getLocalslStorage() {
+  const storedBooks = localStorage.getItem('Books');
+  if (storedBooks !== null) {
+    return JSON.parse(storedBooks);
+  }
+  return [];
 }
 
-const bookList =  getLocalslStorage();
+const bookList = getLocalslStorage();
 
 function displayBook() {
-    container.innerHTML = '';
+  container.innerHTML = '';
   for (let i = 0; i < bookList.length; i += 1) {
     const book = bookList[i];
     const maindiv = document.createElement('div');
@@ -42,34 +42,33 @@ function displayBook() {
     container.appendChild(maindiv);
   }
 }
-addButton.addEventListener('click', addBook);
 
 displayBook();
 
-
-function addBook(e){
+function addBook(e) {
   e.preventDefault();
-  if(bookTitle.value.trim() !== '' && bookAuthor.value.trim() !==''){
+  if (bookTitle.value.trim() !== '' && bookAuthor.value.trim() !== '') {
     const list = {
-      title : bookTitle.value,
-      author : bookAuthor.value,
+      title: bookTitle.value,
+      author: bookAuthor.value,
     };
 
     bookList.push(list);
     setLocalStorage(bookList);
     displayBook(bookList);
+  }
 }
-}
+addButton.addEventListener('click', addBook);
 
-function setLocalStorage(books) {
-    const updateBooks = JSON.stringify(books);
-    localStorage.setItem('Books', updateBooks);
-}
+// function setLocalStorage(books) {
+//     const updateBooks = JSON.stringify(books);
+//     localStorage.setItem('Books', updateBooks);
+// }
 
-function getLocalslStorage () {
-    const storedBooks = localStorage.getItem('Books');
-    if (storedBooks !== null) {
-        return JSON.parse(storedBooks);
-    }
-    return [];
-}
+// function getLocalslStorage () {
+//     const storedBooks = localStorage.getItem('Books');
+//     if (storedBooks !== null) {
+//         return JSON.parse(storedBooks);
+//     }
+//     return [];
+// }
