@@ -62,13 +62,11 @@ A book liabrary to store items of books with thier title and author.
 
 ### Key Features <a name="key-features"></a>
 
--The 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
- - Stores the title and author of a book and stores it to an array of object
- - Display the object 
+ - Stores the title and author of a book to an array of object
+ - Display the items of the object to the screen for users
  - User can also remove a book and author with a remove button.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
