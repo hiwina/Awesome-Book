@@ -110,7 +110,7 @@ npm install
 
 To run the project, execute the following command: 
 
-- N/A
+- Open with live server
 
 
 ## Run Test for Linters
