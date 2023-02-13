@@ -87,7 +87,7 @@ To get the content of this project locally you need to run the following command
 
 1. Download the **Zip** file or clone the repo with:
 ```bash
-git - git clone https://github.com/hiwina/Awesome-Book
+git clone https://github.com/hiwina/Awesome-Book
 ```
 3. To access cloned directory run:
 ```bash
